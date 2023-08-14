@@ -14,11 +14,8 @@ from streamlit_option_menu import option_menu
 from PIL import Image
 import requests
 # SET PAGE CONFIGURATION
-st.set_page_config(
-    page_title= " YouTube Data Harvesting and Warehousing | By Nirosh Kumar",
-    layout="wide",
-    initial_sidebar_state="expanded",
-    menu_items={'About': """# This app is created by Nirosh Kumar!"""})
+st.set_page_config(page_title= " YouTube Data Harvesting and Warehousing | By Nirosh Kumar",page_icon="▶️",layout="wide",
+                  initial_sidebar_state="expanded",menu_items={'About': """# This app is created by Nirosh Kumar!"""})
 
 # CREATING OPTION MENU
 with st.sidebar:
